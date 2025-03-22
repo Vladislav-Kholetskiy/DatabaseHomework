@@ -1,4 +1,4 @@
--- Вставка данных в таблицу Hotel
+
 INSERT INTO Hotel (ID_hotel, name, location) VALUES
 (1, 'Grand Hotel', 'Paris, France'),
 (2, 'Ocean View Resort', 'Miami, USA'),
@@ -10,7 +10,7 @@ INSERT INTO Hotel (ID_hotel, name, location) VALUES
 (8, 'Tropical Paradise', 'Bali, Indonesia'),
 (9, 'Business Suites', 'Tokyo, Japan'),
 (10, 'Eco-Friendly Hotel', 'Copenhagen, Denmark');
--- Вставка данных в таблицу Room
+
 INSERT INTO Room (ID_room, ID_hotel, room_type, price, capacity) VALUES
 (1, 1, 'Single', 150.00, 1),
 (2, 1, 'Double', 200.00, 2),
@@ -31,7 +31,7 @@ INSERT INTO Room (ID_room, ID_hotel, room_type, price, capacity) VALUES
 (17, 9, 'Suite', 360.00, 4),
 (18, 10, 'Single', 110.00, 1),
 (19, 10, 'Double', 160.00, 2);
--- Вставка данных в таблицу Customer
+
 INSERT INTO Customer (ID_customer, name, email, phone) VALUES
 (1, 'John Doe', 'john.doe@example.com', '+1234567890'),
 (2, 'Jane Smith', 'jane.smith@example.com', '+0987654321'),
@@ -43,31 +43,31 @@ INSERT INTO Customer (ID_customer, name, email, phone) VALUES
 (8, 'Fiona Apple', 'fiona.apple@example.com', '+6677889900'),
 (9, 'George Washington', 'george.washington@example.com', '+7788990011'),
 (10, 'Hannah Montana', 'hannah.montana@example.com', '+8899001122');
--- Вставка данных в таблицу Booking с разнообразием клиентов
+
 INSERT INTO Booking (ID_booking, ID_room, ID_customer, check_in_date, check_out_date) VALUES
-(1, 1, 1, '2025-05-01', '2025-05-05'),  -- 4 ночи, John Doe
-(2, 2, 2, '2025-05-02', '2025-05-06'),  -- 4 ночи, Jane Smith
-(3, 3, 3, '2025-05-03', '2025-05-07'),  -- 4 ночи, Alice Johnson
-(4, 4, 4, '2025-05-04', '2025-05-08'),  -- 4 ночи, Bob Brown
-(5, 5, 5, '2025-05-05', '2025-05-09'),  -- 4 ночи, Charlie White
-(6, 6, 6, '2025-05-06', '2025-05-10'),  -- 4 ночи, Diana Prince
-(7, 7, 7, '2025-05-07', '2025-05-11'),  -- 4 ночи, Ethan Hunt
-(8, 8, 8, '2025-05-08', '2025-05-12'),  -- 4 ночи, Fiona Apple
-(9, 9, 9, '2025-05-09', '2025-05-13'),  -- 4 ночи, George Washington
-(10, 10, 10, '2025-05-10', '2025-05-14'),  -- 4 ночи, Hannah Montana
-(11, 1, 2, '2025-05-11', '2025-05-15'),  -- 4 ночи, Jane Smith
-(12, 2, 3, '2025-05-12', '2025-05-14'),  -- 2 ночи, Alice Johnson
-(13, 3, 4, '2025-05-13', '2025-05-15'),  -- 2 ночи, Bob Brown
-(14, 4, 5, '2025-05-14', '2025-05-16'),  -- 2 ночи, Charlie White
-(15, 5, 6, '2025-05-15', '2025-05-16'),  -- 1 ночь, Diana Prince
-(16, 6, 7, '2025-05-16', '2025-05-18'),  -- 2 ночи, Ethan Hunt
-(17, 7, 8, '2025-05-17', '2025-05-21'),  -- 4 ночи, Fiona Apple
-(18, 8, 9, '2025-05-18', '2025-05-19'),  -- 1 ночь, George Washington
-(19, 9, 10, '2025-05-19', '2025-05-22'),  -- 3 ночи, Hannah Montana
-(20, 10, 1, '2025-05-20', '2025-05-22'), -- 2 ночи, John Doe
-(21, 1, 2, '2025-05-21', '2025-05-23'),  -- 2 ночи, Jane Smith
-(22, 2, 3, '2025-05-22', '2025-05-25'),  -- 3 ночи, Alice Johnson
-(23, 3, 4, '2025-05-23', '2025-05-26'),  -- 3 ночи, Bob Brown
-(24, 4, 5, '2025-05-24', '2025-05-25'),  -- 1 ночь, Charlie White
-(25, 5, 6, '2025-05-25', '2025-05-27'),  -- 2 ночи, Diana Prince
-(26, 6, 7, '2025-05-26', '2025-05-29');  -- 3 ночи, Ethan Hunt
+(1, 1, 1, '2025-05-01', '2025-05-05'),  -- 4 Г­Г®Г·ГЁ, John Doe
+(2, 2, 2, '2025-05-02', '2025-05-06'),  -- 4 Г­Г®Г·ГЁ, Jane Smith
+(3, 3, 3, '2025-05-03', '2025-05-07'),  -- 4 Г­Г®Г·ГЁ, Alice Johnson
+(4, 4, 4, '2025-05-04', '2025-05-08'),  -- 4 Г­Г®Г·ГЁ, Bob Brown
+(5, 5, 5, '2025-05-05', '2025-05-09'),  -- 4 Г­Г®Г·ГЁ, Charlie White
+(6, 6, 6, '2025-05-06', '2025-05-10'),  -- 4 Г­Г®Г·ГЁ, Diana Prince
+(7, 7, 7, '2025-05-07', '2025-05-11'),  -- 4 Г­Г®Г·ГЁ, Ethan Hunt
+(8, 8, 8, '2025-05-08', '2025-05-12'),  -- 4 Г­Г®Г·ГЁ, Fiona Apple
+(9, 9, 9, '2025-05-09', '2025-05-13'),  -- 4 Г­Г®Г·ГЁ, George Washington
+(10, 10, 10, '2025-05-10', '2025-05-14'),  -- 4 Г­Г®Г·ГЁ, Hannah Montana
+(11, 1, 2, '2025-05-11', '2025-05-15'),  -- 4 Г­Г®Г·ГЁ, Jane Smith
+(12, 2, 3, '2025-05-12', '2025-05-14'),  -- 2 Г­Г®Г·ГЁ, Alice Johnson
+(13, 3, 4, '2025-05-13', '2025-05-15'),  -- 2 Г­Г®Г·ГЁ, Bob Brown
+(14, 4, 5, '2025-05-14', '2025-05-16'),  -- 2 Г­Г®Г·ГЁ, Charlie White
+(15, 5, 6, '2025-05-15', '2025-05-16'),  -- 1 Г­Г®Г·Гј, Diana Prince
+(16, 6, 7, '2025-05-16', '2025-05-18'),  -- 2 Г­Г®Г·ГЁ, Ethan Hunt
+(17, 7, 8, '2025-05-17', '2025-05-21'),  -- 4 Г­Г®Г·ГЁ, Fiona Apple
+(18, 8, 9, '2025-05-18', '2025-05-19'),  -- 1 Г­Г®Г·Гј, George Washington
+(19, 9, 10, '2025-05-19', '2025-05-22'),  -- 3 Г­Г®Г·ГЁ, Hannah Montana
+(20, 10, 1, '2025-05-20', '2025-05-22'), -- 2 Г­Г®Г·ГЁ, John Doe
+(21, 1, 2, '2025-05-21', '2025-05-23'),  -- 2 Г­Г®Г·ГЁ, Jane Smith
+(22, 2, 3, '2025-05-22', '2025-05-25'),  -- 3 Г­Г®Г·ГЁ, Alice Johnson
+(23, 3, 4, '2025-05-23', '2025-05-26'),  -- 3 Г­Г®Г·ГЁ, Bob Brown
+(24, 4, 5, '2025-05-24', '2025-05-25'),  -- 1 Г­Г®Г·Гј, Charlie White
+(25, 5, 6, '2025-05-25', '2025-05-27'),  -- 2 Г­Г®Г·ГЁ, Diana Prince
+(26, 6, 7, '2025-05-26', '2025-05-29');  -- 3 Г­Г®Г·ГЁ, Ethan Hunt

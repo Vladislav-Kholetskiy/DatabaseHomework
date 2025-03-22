@@ -9,7 +9,7 @@ WITH CarResults AS (
     JOIN Cars c ON r.car = c.name
     JOIN Classes cl ON cl.class = c.class
     GROUP BY c.name, c.class, cl.country
-    HAVING AVG(r.position) > 3.0  -- Исправлено
+    HAVING AVG(r.position) > 3.0  
 ),
 
 ClassResults AS (
